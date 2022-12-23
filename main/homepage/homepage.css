@@ -1,3 +1,45 @@
-.main{
-    text-align: center;
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    font-family: 'Rozha One', serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .banner {
+    min-height: 100%;
+    width: 100%;
+    background-color: #fff;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    color: #fff;
+  }
+
+.hamburger {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    display: flex;
+    height: 18px;
+    width: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1;
+}    
+    
+.hamburger__icon {
+      display: inline-block;
+      height: 2px;
+      width: 24px;
+      background: grey;
+      border-radius: 2px;
 }
