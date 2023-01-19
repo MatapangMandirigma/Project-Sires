@@ -53,6 +53,14 @@ nav{
   left: 0px;
 }
 
+.nav-link {
+  display: block;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+}
+
 img{
   width: 100%;
 }
