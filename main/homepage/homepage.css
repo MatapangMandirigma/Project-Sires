@@ -1,4 +1,4 @@
-/* go back and fix all sizes of things to maybe rem */
+/* go back and fix all sizes of things to maybe rem or em */
 
 *{
   font: arial;
@@ -64,6 +64,40 @@ nav{
   margin: 10px 20px;
   padding-top: 40px;
   padding-bottom: 20px;
+}
+
+.button{
+  display: block;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  margin: 10px 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.home, .about{
+  padding-left: 3.8rem;
+  padding-right: 3.8rem;
+}
+
+.n{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.b{
+  padding-left: 3.3rem;
+  padding-right: 3.3rem;
+}
+
+.projects{
+  padding-left: 3.4rem;
+  padding-right: 3.4rem;
 }
 
 .nav-link {
