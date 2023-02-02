@@ -39,7 +39,7 @@ function btnLink(btn) {
             btnURL = 'homepage.html#projects';
             break;
         case 'about':
-            btnURL = 'homepage.html#about';
+            btnURL = '../aboutpage/aboutpage.html';
             break;
         case 'b':
             btnURL = 'homepage.html#b';
@@ -51,6 +51,6 @@ function btnLink(btn) {
             btnURL = 'homepage.html#';
     }
 
-    window.location.href = btnURL;
     closeMenu();
+    window.location.href = btnURL;
 }
